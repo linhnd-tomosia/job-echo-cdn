@@ -1,7 +1,7 @@
-// version 1.0.0
+// version 1.0.1
 
 (function () {
-  const data = {"@type":"JobPosting","title":"Webデザイナー","skills":"必須：Photoshop, Illustrator, HTML, CSS\n歓迎：Figma, Adobe XD, JavaScript, React","@context":"https://schema.org/","workHours":"9:00〜18:00（休憩1時間）","baseSalary":{"@type":"MonetaryAmount","value":{"@type":"QuantitativeValue","maxValue":5555,"minValue":222,"unitText":"HOUR"},"currency":"JPY"},"datePosted":"2025-11-11","description":"当社でWebデザイナーとして、クライアントのブランディングやユーザー体験の向上を目的としたデザイン業務をお任せします。主な業務内容は以下の通りです：\n\n・WebサイトのUI/UXデザイン\n・バナーやグラフィックの作成\n・デザインシステムの構築\n・クライアントとのコミュニケーション\n\n必須スキル：Photoshop, Illustrator, HTML/CSS, JavaScript\n歓迎スキル：Figma, Adobe XD, React\n\n勤務地は渋谷駅から徒歩5分。リモートワークも可能です。","directApply":false,"jobBenefits":"社会保険完備、交通費全額支給、リモートワーク可、書籍購入補助","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","postalCode":"150-0041","addressRegion":"東京都","streetAddress":"1-2-3","addressCountry":"JP","addressLocality":"渋谷区"}},"validThrough":"2026-11-11","employmentType":"FULL_TIME","jobLocationType":"hybrid","hiringOrganization":{"name":"株式会社Javion","@type":"Organization"}};
+  const data = {"@type":"JobPosting","@context":"https://schema.org/","directApply":false,"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"JP"}},"employmentType":"FULL_TIME","jobLocationType":"ONSITE","hiringOrganization":{"@type":"Organization"}};
   const s = document.createElement("script");
   s.type = "application/ld+json";
   s.textContent = JSON.stringify(data);
